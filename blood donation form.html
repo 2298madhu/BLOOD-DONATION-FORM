@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .bgcolor{
+        background-color: lightblue;
+        border: solid 2px black;
+        padding: 10px 20px;
+        margin: 50px 30px;
+        text-align: left;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOD DONATION FORM</title>
+</head>
+<body>
+    <form id="form" method="GET">
+    <div class="bgcolor"> 
+        <h1>USER RECORD LIST</h1>
+        <h4>User name</h4>
+        <input type="username" id="user name" name="user name" placeholder="enter your username">
+        <h4>EMAIL ADDRESS</h4>
+        <input type="Email address" id="email address" placeholder="enter your email">
+        <h4>SELECT YOUR BLOOD GROUP</h4>
+        <select name="drop down" id="drop down">
+            <option value="A+">A+</option>
+            <option value="A-">A-</option> 
+            <option value="B+">B+</option> 
+            <option value="B-">B-</option> 
+            <option value="AB+">AB+</option> 
+            <option value="AB-">AB-</option> 
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>  
+        </select>
+        <h4>ENTER YOUR ADDRESS</h4>
+        <textarea name="message" id="messege" rows="5"></textarea>
+        <h4>ENETR YOUR PHONE NUMBER</h4>
+        <textarea name="NUMBER" id="number" maxlength="10"></textarea>
+        <h4>Any other details regarding your medical health</h4>
+        <textarea name="text" id="text" rows="6"></textarea><br>
+        <input type="submit" id="submit" value="submit" class="btn-primary">
+    </div>
+</form>
+</body>
+</html>
